@@ -1,0 +1,142 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-sizing: border-box;
+    height: 72px;
+    background-color: #17202E;
+    border-bottom: 1px solid #273140;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 13px;
+}
+
+.logo-img {
+    width: 99px;
+    height: 19.21px;
+}
+
+.search-container {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273140;
+    border-radius: 24px;
+    width: 407px;
+    height: 40px;
+    border: none;
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    outline: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.search-icon {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 16px;
+    margin-top: 2px;
+}
+
+.search-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.add-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #DD5313;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 11px;
+    flex: 1;
+    margin-right: 24px;
+}
+
+.icon-profile {
+    width: 18px;
+    height: 18px;
+    color: #FFFFFF;
+}
+
+.user-info {
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.user-role {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 11px;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

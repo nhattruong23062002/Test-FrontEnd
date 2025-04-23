@@ -1,0 +1,189 @@
+.contact-table-container {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #17202E;
+    border-radius: 10px;
+    padding: 26px 0px;
+    box-sizing: border-box;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    border: none;
+}
+
+.contact-table th {
+    height: 20px;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8B8B8B;
+}
+
+.contact-table td {
+    height: 65px;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+
+.contact-table td:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-contact-table {
+    font-size: 18px;
+    margin-bottom: -4px;
+    margin-right: 8px;
+}
+
+.avatar-responsible {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -4px;
+    margin-right: 8px;
+}
+
+.contact-table td:first-child,
+.contact-table th:first-child {
+    border-left: none;
+    padding: 0px 0px 0px 32px;
+
+}
+
+.contact-table td:nth-child(2),
+.contact-table th:nth-child(2) {
+    border-left: none;
+}
+
+.contact-table td:last-child,
+.contact-table th:last-child {
+    border-left: none;
+    border-top: none;
+    padding: 0px 32px 0px 0px;
+}
+
+.contact-table .label {
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 2px 6px;
+}
+
+.label-btp {
+    background-color: red;
+    width: 27px;
+    height: 14px;
+    background: #FF001F;
+    border-radius: 10px;
+}
+
+.label-btob {
+    width: 31px;
+    height: 14px;
+    background: #0038FF;
+    border-radius: 10px;
+}
+
+.label-other {
+    background-color: #09091A;
+    width: 12px;
+    height: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.contact-table input[type="checkbox"] {
+    cursor: pointer;
+    background-color: #17202E;
+    border: 1px solid #FFFFFF;
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    outline: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.contact-table input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+}
+
+.contact-table input[type="checkbox"]:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-table input[type="checkbox"]:checked:before {
+    background-color: white;
+}
+
+
+.contact-table tr:hover {
+    background-color: #2b343f;
+}
+
+.icon-setting-table {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-size: 18px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.contact-table tr:hover td:last-child .action-icons {
+    visibility: visible;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact-name span {
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.contact-type {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
