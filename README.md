@@ -30,6 +30,6 @@ Email: nhat@gmail.com
 Password: 123456
 
 # Build dự án
-yarn build # hoặc npm build
+yarn build # hoặc npm run build
 
 
